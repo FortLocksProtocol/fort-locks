@@ -48,13 +48,25 @@ The address is compiled into FortLocks V1 and cannot be changed during or after 
 
 ### Official Deployment
 
-The official FortLocks V1 Ethereum mainnet contract address will be recorded here after deployment.
+The official FortLocks V1 deployment on Ethereum mainnet is:
 
-Until an official deployment address has been published, no address can be classified as:
+`0x07AEbCE1f6DC40288E9AeE447E57B0289702DD4F`
 
-`Official FortLocks V1 — VERIFIED`
+Deployment details:
 
-Once published, official deployment identity is determined by exact address equality with that published Ethereum mainnet address.
+* Network: Ethereum mainnet
+* Chain ID: `1`
+* Deployment transaction: `0xa30f9a6e5793b92c3e1e4e702d1edb2ab2e8ac2898909e868d68a7b6d09c2df0`
+* Deployment block: `26026957`
+* Deployer: `0x7ca966E0722921216c46b024bd13C1F647f338bc`
+* `FORT_FEE_RECIPIENT`: `0x7ca966E0722921216c46b024bd13C1F647f338bc`
+* Canonical V1 commit: `489b53b89f1ee2af79b77bd24b13666b0b0308dc`
+* Canonical V1 tag: `v1.0.0`
+* Etherscan source verification: `Exact Match`
+* Sourcify creation match: `match`
+* Sourcify runtime match: `match`
+
+Official deployment identity is determined by exact address equality with the official Ethereum mainnet address above.
 
 A contract MUST NOT be identified as the official FortLocks V1 deployment solely because its source code or bytecode matches the FortLocks V1 implementation.
 
